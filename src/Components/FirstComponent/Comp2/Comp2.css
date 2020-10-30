@@ -1,0 +1,80 @@
+.comp2 {
+  margin-top: 40px;
+}
+
+.comp2 > h5 {
+  font-size: 18px;
+  line-height: 1.3;
+  color: grey;
+  margin: 0;
+  font-weight: 400;
+}
+
+.comp2__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 12px;
+  flex: 1;
+  margin: 0;
+  height: 100px;
+  padding: 30px;
+}
+
+.comp2__containerTitle {
+  margin: 0;
+}
+
+.comp2__containerTitle > h6 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.comp2__container__innerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 0;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  padding: 20px;
+  width: 85%;
+}
+
+.comp2__containerSelectCategory {
+  height: 30px;
+  border: 2px solid rgb(112, 112, 252);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.comp2__containerSelectCategory > h5 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.comp2__containerInput > input {
+  height: 30px;
+  border: 1px solid rgb(228, 228, 228);
+  outline: none;
+  padding: 0 10px;
+}
+
+.comp2__containerIcons {
+  margin-left: 40px;
+}
+
+.comp2__containerIcons > .MuiSvgIcon-root {
+  color: #444 !important;
+  font-size: 20px !important;
+  margin: 0 10px;
+}

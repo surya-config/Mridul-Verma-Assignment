@@ -1,0 +1,84 @@
+.comp1__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-right: 50px;
+  height: 115px;
+  flex: 1;
+}
+
+.linkIcon {
+  flex: 0.18;
+}
+
+.linkIcon > .MuiSvgIcon-root {
+  transform: rotate(-40deg) !important;
+  color: rgb(30, 101, 233);
+  font-size: 50px !important;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.comp1__containerContent {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+.comp1__containerContent > h5 {
+  margin-bottom: 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+}
+
+.comp1__containerContent > p {
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.comp1__containerCopyLink {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.copyLink__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  padding: 0;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 12px;
+  /* background-color: rgba(90, 65, 202, 0.849); */
+  background-color: rgb(112, 112, 252);
+  height: 45px;
+  width: 125px;
+  color: white;
+}
+
+.copyLink__container > .MuiSvgIcon-root {
+  margin-top: -5px;
+  margin-left: -15px;
+}
+
+.copyLink__container > h5 {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
